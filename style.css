@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-heading{
+    width: 50%;
+    padding-top: 10rem;
+    padding-left: 15rem;
+    font-size: larger;    
+    
+}
+.main-heading p{
+    font-size: x-large;
+}
+.btn{
+    width: 135px;
+    background-color: #33c3f0;
+    color: white;
+    padding: 9px 0px;
+    border-radius: 50px;
+    border-color: #33c3f0;
+    border-style: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #0ba9d9;
+}
+.phone{
+     width: 50%;
+     padding-left: 8rem;
+     margin-top: 3rem;
+
+}
+.phone img{
+    width: 280px;
+    height: 550px;
+}
+.page-2{
+    min-height: 500px;
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -72px;
+}
+.section{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+.section-values{
+    width: 200px;
+    margin-top: 11rem;
+}
+.value-avge{
+    font-size: 2.7rem;
+    color: #11dfc7;
+    text-align: center;
+}
+.value-head{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+.value-data{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px 15px;
+    opacity: 0.6;
+}
+.page-3{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+.pg3-content{
+    height: 270px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    /* margin-top: 110px; */
+
+}
+.pg3-content .mission-heading {
+    font-size: xx-large;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 40px;
+}
+.pg3-content .mission-description{
+    padding: 2px 15px;
+
+}
+.btn-2{
+    width: 110px;
+    margin-top: 12px;
+    text-align: center;
+}
+.page-4{
+    height: 750px;
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page4-content{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
+.page4-content .image-heading{
+    font-size: xx-large;
+    letter-spacing: 0;
+    color: white;
+}
+.image-des{
+
+    color: white;
+}
+.image-section{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* flex-direction: row; */
+    justify-content: center;
+}
+.image{
+    width: 380px;
+    border-style: dashed;
+    border-color: white;
+    height: 250px;
+    text-align: center;
+
+}
+.img1{
+    margin-right: 2rem;
+}
+.image h3{
+    color: white;
+    padding-top: 110px;
+    letter-spacing: 3px;
+    font-size: x-large;
+}
+.footer{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
